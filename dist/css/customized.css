@@ -1,0 +1,29 @@
+header { background-color: #f6f8fa; text-align: center; }
+header > div.header {
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header > div > ul {
+    max-width: 870px;
+    margin: 0 auto;
+    list-style-type: square;
+}
+.profilePic {
+    width: 190px;
+    height: 190px;
+    display: inline-block;
+    background: url('https://scontent-ssn1-1.xx.fbcdn.net/v/t1.0-1/44104209_2328651677366795_338222631541014528_n.jpg?_nc_cat=100&_nc_ohc=Gc_Hki4W2joAX_2NwxR&_nc_ht=scontent-ssn1-1.xx&oh=9097931999a9b0d3a6a8ea92eb57c83a&oe=5ECA773A');
+    background-size: cover;
+    border-radius: 12px;
+}
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+article {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
